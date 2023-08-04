@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a -N --group-directories-first | sed -E 's/(.*)\/$/\1\//g' | tr '\n' ',' then echo
+ls -ap1 | grep -v "/\|^\.\.$\|^\.$" | LC_ALL=C sort -d | tr '\n' ',' echo
