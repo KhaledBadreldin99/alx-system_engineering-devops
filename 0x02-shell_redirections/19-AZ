@@ -1,0 +1,2 @@
+#!/bin/bash
+echo Acola | tr AC Ze
