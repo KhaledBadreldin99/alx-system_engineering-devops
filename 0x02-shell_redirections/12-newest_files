@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | head -n 10
+git ls-files -z | xargs -0 ls -lt | head -n 10
