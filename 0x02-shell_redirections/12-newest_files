@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | head -10 0x02-shell_redirections
+sort | head -10
